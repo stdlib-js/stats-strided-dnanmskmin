@@ -50,7 +50,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dnanmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanmskmin@esm/index.mjs';
+import dnanmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanmskmin@v0.1.0-esm/index.mjs';
 ```
 
 #### dnanmskmin( N, x, strideX, mask, strideMask )
@@ -169,7 +169,7 @@ var v = dnanmskmin.ndarray( 4, x, 2, 1, mask, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import dnanmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanmskmin@esm/index.mjs';
+import dnanmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanmskmin@v0.1.0-esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
